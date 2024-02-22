@@ -1,0 +1,31 @@
+pm3_JAP_annex_manchuria_category = {
+	pm3_JAP_annex_manchuria_decision = {
+		#icon = Some cool icon here
+		fire_only_once = yes
+		cost = 0
+
+		ai_will_do = {
+			base = 0
+		}
+
+		complete_effect = {
+			annex_country = {
+				target = MAN
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = KOR
+						AND = {
+							is_core_of = MAN
+							NOT = { state = 524 }
+						}
+					}
+				}
+
+				add_core_of = JAP
+			}
+		}
+	}
+}

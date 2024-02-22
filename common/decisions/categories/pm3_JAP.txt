@@ -1,0 +1,16 @@
+pm3_JAP_annex_manchuria_category = {
+	allowed = {
+		original_tag = JAP
+	}
+
+	visible = {
+		MAN = {
+			exists = yes
+			is_ai = yes
+		}
+	}
+
+	priority = {
+		base = 100
+	}
+}

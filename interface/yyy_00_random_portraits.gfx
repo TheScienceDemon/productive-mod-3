@@ -1,0 +1,351 @@
+spriteTypes = {
+
+	### AFG ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Persia_Generic_land_1"
+		texturefile = "gfx/leaders/PER/Portrait_PER_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Persia_Generic_land_2"
+		texturefile = "gfx/leaders/PER/Portrait_PER_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Persia_Generic_land_3"
+		texturefile = "gfx/leaders/PER/Portrait_PER_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Persia_Generic_land_4"
+		texturefile = "gfx/leaders/PER/Portrait_PER_Generic_land_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Persia_Generic_land_5"
+		texturefile = "gfx/leaders/PER/Portrait_PER_Generic_land_5.dds"
+	}
+	
+	### ARG ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Argentina_Generic_land_1"
+		texturefile = "gfx/leaders/ARG/Portrait_Argentina_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Argentina_Generic_land_2"
+		texturefile = "gfx/leaders/ARG/Portrait_Argentina_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Argentina_Generic_land_3"
+		texturefile = "gfx/leaders/ARG/Portrait_Argentina_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Argentina_Generic_land_4"
+		texturefile = "gfx/leaders/ARG/Portrait_Argentina_Generic_land_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Argentina_Generic_land_5"
+		texturefile = "gfx/leaders/ARG/Portrait_Argentina_Generic_land_5.dds"
+	}
+	
+	### AUS ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Austria_Generic_land_1"
+		texturefile = "gfx/leaders/AUS/Portrait_Austria_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Austria_Generic_land_2"
+		texturefile = "gfx/leaders/AUS/Portrait_Austria_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Austria_Generic_land_3"
+		texturefile = "gfx/leaders/AUS/Portrait_Austria_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Austria_Generic_land_4"
+		texturefile = "gfx/leaders/AUS/Portrait_Austria_Generic_land_4.dds"
+	}
+	
+	### BEL ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Belgium_Generic_land_1"
+		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Belgium_Generic_land_2"
+		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Belgium_Generic_land_3"
+		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Belgium_Generic_land_4"
+		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Generic_land_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Belgium_Generic_land_5"
+		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Generic_land_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Belgium_Generic_land_5"
+		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Generic_land_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Belgium_Generic_land_6"
+		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Generic_land_6.dds"
+	}
+	
+	### BRA ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Brazil_Generic_land_1"
+		texturefile = "gfx/leaders/BRA/Portrait_Brazil_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Brazil_Generic_land_2"
+		texturefile = "gfx/leaders/BRA/Portrait_Brazil_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Brazil_Generic_land_3"
+		texturefile = "gfx/leaders/BRA/Portrait_Brazil_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Brazil_Generic_land_4"
+		texturefile = "gfx/leaders/BRA/Portrait_Brazil_Generic_land_4.dds"
+	}
+	
+	### CHI ###
+	
+	spriteType = {
+		name = "GFX_Portrait_China_Generic_land_1"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_China_Generic_land_2"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_China_Generic_land_3"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_China_Generic_land_4"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Generic_land_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_China_Generic_land_5"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Generic_land_5.dds"
+	}
+	
+	### FIN ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Finland_Generic_land_1"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Finland_Generic_land_2"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Finland_Generic_land_3"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Finland_Generic_land_4"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Generic_land_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Finland_Generic_land_5"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Generic_land_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Finland_Generic_land_6"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Generic_land_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Finland_Generic_land_7"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Generic_land_7.dds"
+	}
+	
+	### LUX ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Luxembourg_Generic_land_1"
+		texturefile = "gfx/leaders/LUX/Portrait_Luxembourg_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Luxembourg_Generic_land_2"
+		texturefile = "gfx/leaders/LUX/Portrait_Luxembourg_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Luxembourg_Generic_land_3"
+		texturefile = "gfx/leaders/LUX/Portrait_Luxembourg_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Luxembourg_Generic_land_4"
+		texturefile = "gfx/leaders/LUX/Portrait_Luxembourg_Generic_land_4.dds"
+	}
+	
+	### POR ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Portugal_Generic_land_1"
+		texturefile = "gfx/leaders/POR/Portrait_Portugal_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Portugal_Generic_land_2"
+		texturefile = "gfx/leaders/POR/Portrait_Portugal_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Portugal_Generic_land_3"
+		texturefile = "gfx/leaders/POR/Portrait_Portugal_Generic_land_3.dds"
+	}
+	
+	### ROM ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Romania_Generic_land_1"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Generic_land_1.dds"
+	}
+	
+	### SPA ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Spain_Generic_land_1"
+		texturefile = "gfx/leaders/SPA/Portrait_SPA_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Spain_Generic_land_2"
+		texturefile = "gfx/leaders/SPA/Portrait_SPA_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Spain_Generic_land_3"
+		texturefile = "gfx/leaders/SPA/Portrait_SPA_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Spain_Generic_land_4"
+		texturefile = "gfx/leaders/SPA/Portrait_SPA_Generic_land_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Spain_Generic_land_5"
+		texturefile = "gfx/leaders/SPA/Portrait_SPA_Generic_land_5.dds"
+	}
+	
+	### SPR ###
+	
+	spriteType = {
+		name = "GFX_Portrait_SPR_Generic_land_1"
+		texturefile = "gfx/leaders/SPR/Portrait_SPR_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_SPR_Generic_land_2"
+		texturefile = "gfx/leaders/SPR/Portrait_SPR_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_SPR_Generic_land_3"
+		texturefile = "gfx/leaders/SPR/Portrait_SPR_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_SPR_Generic_land_4"
+		texturefile = "gfx/leaders/SPR/Portrait_SPR_Generic_land_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_SPR_Generic_land_5"
+		texturefile = "gfx/leaders/SPR/Portrait_SPR_Generic_land_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_SPR_Generic_land_6"
+		texturefile = "gfx/leaders/SPR/Portrait_SPR_Generic_land_6.dds"
+	}
+	
+	### SWE ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Sweden_Generic_land_1"
+		texturefile = "gfx/leaders/SWE/Portrait_Sweden_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Sweden_Generic_land_2"
+		texturefile = "gfx/leaders/SWE/Portrait_Sweden_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Sweden_Generic_land_3"
+		texturefile = "gfx/leaders/SWE/Portrait_Sweden_Generic_land_3.dds"
+	}
+	
+	### YUG ###
+	
+	spriteType = {
+		name = "GFX_Portrait_Yugoslavia_Generic_land_1"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Yugoslavia_Generic_land_2"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Yugoslavia_Generic_land_3"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Yugoslavia_Generic_land_4"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Generic_land_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Yugoslavia_Generic_land_5"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Generic_land_5.dds"
+	}
+
+}	

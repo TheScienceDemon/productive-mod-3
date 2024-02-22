@@ -1,0 +1,38 @@
+﻿l_english:
+ # Shared Stuff
+ RK_shared_the_new_occupation: "The new Occupation"
+ RK_shared_the_new_occupation_desc: ""
+ # Integral Reichskommissrariate
+ RK_integral_factory_exploitation: "Factory Exploitation"
+ RK_integral_factory_exploitation_desc: ""
+ RK_integral_industrial_expansion: "Industrial Expansion"
+ RK_integral_industrial_expansion_desc: ""
+ RK_integral_stolen_wealth_from_the_people: "Stolen Wealth from the People"
+ RK_integral_stolen_wealth_from_the_people_desc: ""
+ RK_integral_military_industry: "Military Industry"
+ RK_integral_military_industry_desc: ""
+ RK_integral_rebuilding_war_infrastructure: "Rebuilding War Infrastructure"
+ RK_integral_rebuilding_war_infrastructure_desc: ""
+ RK_integral_fighting_the_guerrillas: "Fighting the Guerrillas"
+ RK_integral_fighting_the_guerrillas_desc: ""
+ RK_integral_crush_the_resistance: "Crush the Resistance"
+ RK_integral_crush_the_resistance_desc: ""
+ RK_integral_segregade_population: "Segregade Population"
+ RK_integral_segregade_population_desc: ""
+ RK_integral_invite_german_businesses: "Invite German Businesses"
+ RK_integral_invite_german_businesses_desc: ""
+ RK_integral_promoting_lebensraum: "Promoting Lebensraum"
+ RK_integral_promoting_lebensraum_desc: ""
+ RK_integral_german_market_domination: "German Market Domination"
+ RK_integral_german_market_domination_desc: ""
+ RK_integral_constructing_labour_camps: "Constructing Labour Camps"
+ RK_integral_constructing_labour_camps_desc: ""
+ RK_integral_consolidating_administration: "Consolidating Administration"
+ RK_integral_consolidating_administration_desc: ""
+ RK_integral_executing_opposition: "Executing Opposition"
+ RK_integral_executing_opposition_desc: ""
+ RK_integral_eindeutschung: "§REINDEUTSCHUNG§!"
+ RK_integral_eindeutschung_desc: ""
+ # Western Reichskommissariate
+
+ # Eastern Reichskommissariate

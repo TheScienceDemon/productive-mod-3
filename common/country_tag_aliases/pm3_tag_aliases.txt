@@ -1,0 +1,34 @@
+RKC = {
+	original_tag = CZE
+	has_cosmetic_tag = RK_CZE
+}
+
+RKP = {
+	original_tag = POL
+	has_cosmetic_tag = RK_POL
+}
+
+RKN = {
+	original_tag = NOR
+	has_cosmetic_tag = RK_NOR
+}
+
+RKH = {
+	original_tag = HOL
+	has_cosmetic_tag = RK_HOL
+}
+
+RKB = {
+	original_tag = BEL
+	has_cosmetic_tag = RK_BEL
+}
+
+RKO = {
+	original_tag = BLR
+	has_cosmetic_tag = RK_BLR
+}
+
+RKU = {
+	original_tag = UKR
+	has_cosmetic_tag = RK_UKR
+}

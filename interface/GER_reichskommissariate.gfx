@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_portrait_Erich_Koch
+		texturefile = gfx\leaders\GER\portrait_GER_Erich_Koch.dds
+	}
+	spriteType = {
+		name = GFX_portrait_Konstantin_von_Neurath
+		texturefile = gfx\leaders\GER\portrait_GER_Konstantin_von_Neurath.dds
+	}
+	spriteType = {
+		name = GFX_portrait_Hans_Frank
+		texturefile = gfx\leaders\GER\portrait_GER_Hans_Frank.dds
+	}
+	spriteType = {
+		name = GFX_portrait_Josef_Terboven
+		texturefile = gfx\leaders\GER\portrait_GER_Josef_Terboven.dds
+	}
+	spriteType = {
+		name = GFX_portrait_Arthur_Seyss_Inquart
+		texturefile = gfx\leaders\GER\portrait_GER_Arthur_Seyss_Inquart.dds
+	}
+	spriteType = {
+		name = GFX_portrait_Josef_Grohe
+		texturefile = gfx\leaders\GER\portrait_GER_Josef_Grohe.dds
+	}
+	spriteType = {
+		name = GFX_portrait_Hinrich_Lohse
+		texturefile = gfx\leaders\GER\portrait_GER_Hinrich_Lohse.dds
+	}
+}

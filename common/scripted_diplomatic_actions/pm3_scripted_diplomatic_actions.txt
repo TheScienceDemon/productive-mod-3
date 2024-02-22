@@ -1,0 +1,59 @@
+scripted_diplomatic_actions = {
+	pm3_recall_volunteers = {
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			has_volunteers_amount_from = {
+				tag = ROOT
+				count > 0
+			}
+		}
+
+		selectable = {
+			if = {
+				limit = {
+					NOT = {
+						has_volunteers_amount_from = {
+							tag = ROOT
+							count > 0
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = pm3_recall_volunteers_denied
+					always = no
+				}
+			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = pm3_recall_volunteers_allowed
+					always = yes
+				}
+			}
+		}
+
+		requires_acceptance = no
+		cost = 25
+		command_power = 0
+
+		show_acceptance_on_action_button = no
+
+		icon = 1
+
+		complete_effect = {
+			ROOT = { recall_volunteers_from = PREV }
+		}
+
+		ai_acceptance = {
+			condition = { # name is used for loc
+				base = 100
+			}
+		}
+
+		ai_desire = {
+			base = 0
+		}
+	}
+}

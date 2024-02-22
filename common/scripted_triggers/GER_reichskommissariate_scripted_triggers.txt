@@ -1,0 +1,92 @@
+#GER_reichskommissriat_XXX_trigger = {
+#	XXX = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+#}
+
+GER_reichskommissariat_CZE_trigger = {
+	9 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	75 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	hidden_trigger = { NOT = { country_exists = RKC } }
+}
+
+GER_reichskommissariat_POL_trigger = {
+	10 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	88 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	90 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	92 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	hidden_trigger = { NOT = { country_exists = RKP } }
+}
+
+GER_reichskommissariat_NOR_trigger = {
+	110 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	142 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	143 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	144 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	920 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	921 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	922 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	923 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	924 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	925 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	hidden_trigger = { NOT = { country_exists = RKN } }
+}
+
+GER_reichskommissariat_HOL_trigger = {
+	7 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	35 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	36 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	hidden_trigger = { NOT = { country_exists = RKH } }
+}
+
+GER_reichskommissariat_BEL_trigger = {
+	6 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	29 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	34 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	hidden_trigger = { NOT = { country_exists = RKB } }
+}
+
+GER_reichskommissariat_BLR_trigger = {
+	11 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	12 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	13 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	95 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	96 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	189 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	190 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	191 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	204 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	206 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	207 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	784 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	808 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	809 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	810 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	811 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	812 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	813 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	814 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	815 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	hidden_trigger = { NOT = { country_exists = RKO } }
+}
+
+GER_reichskommissariat_UKR_trigger = {
+	93 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	94 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	137 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	193 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	194 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	196 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	197 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	198 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	199 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	200 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	201 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	202 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	203 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	221 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	225 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	226 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	227 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	228 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	259 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	hidden_trigger = { NOT = { country_exists = RKU } }
+}

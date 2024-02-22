@@ -1,0 +1,384 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			PRC = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			KAR = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			CRI = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			NEN = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			KOM = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			MEL = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			UDM = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			CHU = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			TAT = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			BSK = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			VGE = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			KAL = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			ABK = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			KBK = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			NOA = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			CIN = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			DAG = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			YAM = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			OVO = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			KKP = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			KHI = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			BUK = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			ALT = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			TAY = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			BYA = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			YAK = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			FER = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			VLA = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			CKK = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			WLS = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			SCO = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			NIR = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			KSH = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			SIL = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			SPM = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+
+				735 = { remove_claim_by = PREV }
+			}
+			LBV = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			PAP = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			TOS = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			TTS = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			BRI = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			KHA = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			OCC = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			COR = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+			NMB = {
+				every_core_state = {
+					remove_core_of = PREV
+				}
+			}
+		}
+	}
+
+	# ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = GER }
+					FROM.FROM = {
+						state = 3
+						NOT = { has_state_flag = GER_annexed_already }
+					}
+				}
+
+				GER = { set_state_owner = FROM.FROM }
+				FROM.FROM = { set_state_flag = GER_annexed_already }
+			}
+			if = {
+				limit = {
+					ROOT = { tag = GER }
+					FROM.FROM = {
+						state = 85
+						NOT = { has_state_flag = GER_annexed_already }
+					}
+				}
+
+				GER = { set_state_owner = FROM.FROM }
+				FROM.FROM = { set_state_flag = GER_annexed_already }
+			}
+			if = {
+				limit = {
+					ROOT = { tag = GER }
+					FROM.FROM = {
+						state = 86
+						NOT = { has_state_flag = GER_annexed_already }
+					}
+				}
+
+				GER = { set_state_owner = FROM.FROM }
+				FROM.FROM = { set_state_flag = GER_annexed_already }
+			}
+			if = {
+				limit = {
+					ROOT = { tag = GER }
+					FROM.FROM = {
+						state = 151
+						NOT = { has_state_flag = GER_annexed_already }
+					}
+				}
+
+				GER = { set_state_owner = FROM.FROM }
+				FROM.FROM = { set_state_flag = GER_annexed_already }
+			}
+			if = {
+				limit = {
+					ROOT = { tag = GER }
+					FROM.FROM = {
+						state = 762
+						NOT = { has_state_flag = GER_annexed_already }
+					}
+				}
+
+				GER = { set_state_owner = FROM.FROM }
+				FROM.FROM = { set_state_flag = GER_annexed_already }
+			}
+			if = {
+				limit = {
+					ROOT = { tag = GER }
+					FROM.FROM = {
+						state = 807
+						NOT = { has_state_flag = GER_annexed_already }
+					}
+				}
+
+				GER = { set_state_owner = FROM.FROM }
+				FROM.FROM = { set_state_flag = GER_annexed_already }
+			}
+			if = {
+				limit = {
+					ROOT = { tag = GER }
+					FROM.FROM = {
+						state = 847
+						NOT = { has_state_flag = GER_annexed_already }
+					}
+				}
+
+				GER = { set_state_owner = FROM.FROM }
+				FROM.FROM = { set_state_flag = GER_annexed_already }
+			}
+			if = {
+				limit = {
+					ROOT = { tag = GER }
+					FROM.FROM = {
+						state = 912
+						NOT = { has_state_flag = GER_annexed_already }
+					}
+				}
+
+				GER = {
+					set_state_owner = FROM.FROM
+					add_state_core = FROM.FROM
+				}
+
+				FROM.FROM = { set_state_flag = GER_annexed_already }
+			}
+			if = {
+				limit = {
+					ROOT = { tag = DEN }
+					FROM.FROM = {
+						state = 912
+						has_state_flag = GER_annexed_already
+					}
+				}
+
+				DEN = { set_state_owner = FROM.FROM }
+				GER = { remove_state_core = FROM.FROM }
+			}
+		}
+	}
+
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = SOV }
+					ROOT = {
+						OR = {
+							tag = RKO
+							tag = RKU
+						}
+					}
+				}
+
+				ROOT = {
+					every_owned_state = {
+						transfer_state_to = FROM
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { tag = GER }
+					ROOT = {
+						tag = DEN
+						owns_state = 101
+						owns_state = 337
+					}
+				}
+
+				ICE = {
+					transfer_state = 101
+					transfer_state = 337
+				}
+			}
+		}
+	}
+}

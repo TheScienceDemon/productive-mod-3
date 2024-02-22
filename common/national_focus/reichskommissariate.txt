@@ -1,0 +1,392 @@
+shared_focus = {
+	id = RK_shared_the_new_occupation
+	icon = GFX_focus_CZE_german_puppet
+	x = 7
+	y = 0
+
+	cost = 8
+
+	completion_reward = {
+		add_political_power = 125
+	}
+
+	ai_will_do = { factor = 1 }
+}
+
+focus_tree = {
+	id = reichskommissariat_focus_intergral
+	default = no
+
+	shared_focus = RK_shared_the_new_occupation
+
+	# Political
+
+	focus = {
+		id = RK_integral_segregade_population
+		icon = GFX_focus_generic_annex_country
+		x = 3
+		y = 2
+
+		cost = 8
+		relative_position_id = RK_shared_the_new_occupation
+		prerequisite = { focus = RK_shared_the_new_occupation }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_invite_german_businesses
+		icon = GFX_goal_generic_intelligence_exchange
+		x = -1
+		y = 1
+
+		cost = 8
+		relative_position_id = RK_integral_segregade_population
+		prerequisite = { focus = RK_integral_segregade_population }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_promoting_lebensraum
+		icon = GFX_focus_generic_full_employment
+		x = 1
+		y = 1
+
+		cost = 8
+		relative_position_id = RK_integral_segregade_population
+		prerequisite = { focus = RK_integral_segregade_population }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_constructing_labour_camps
+		icon = GFX_focus_SOV_the_road_of_life
+		x = 1
+		y = 1
+
+		cost = 8
+		relative_position_id = RK_integral_promoting_lebensraum
+		prerequisite = { focus = RK_integral_invite_german_businesses }
+		prerequisite = { focus = RK_integral_promoting_lebensraum }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_german_market_domination
+		icon = GFX_focus_generic_german_trade
+		x = 0
+		y = 2
+
+		cost = 8
+		relative_position_id = RK_integral_segregade_population
+		prerequisite = { focus = RK_integral_invite_german_businesses }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	# resistance
+
+	focus = {
+		id = RK_integral_fighting_the_guerrillas
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 2
+
+		cost = 8
+		relative_position_id = RK_shared_the_new_occupation
+		prerequisite = { focus = RK_shared_the_new_occupation }
+
+		available = {
+#			if = {
+#				limit = { tag = RKC }
+#
+#				core_resistance = {
+#					occupied_country_tag = CZE
+#					value > 15
+#				}
+#			}
+#			else_if = {
+#				limit = { tag = RKP }
+#
+#				core_resistance = {
+#					occupied_country_tag = POL
+#					value > 15
+#				}
+#			}
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_crush_the_resistance
+		icon = GFX_focus_generic_full_social_mobilization
+		x = 0
+		y = 2
+
+		cost = 8
+		relative_position_id = RK_integral_fighting_the_guerrillas
+		prerequisite = { focus = RK_integral_fighting_the_guerrillas }
+
+		available = {
+#			core_compliance = {
+#				if = {
+#					limit = { tag = RKC }
+#					occupied_country_tag = CZE
+#				}
+#				else_if = {
+#					limit = { tag = RKP }
+#					occupied_country_tag = POL
+#				}
+#
+#				value > 25
+#			}
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	# Industrial
+
+	focus = {
+		id = RK_integral_factory_exploitation
+		icon = GFX_goal_generic_construct_civ_factory
+		x = -3
+		y = 1
+
+		cost = 8
+		relative_position_id = RK_shared_the_new_occupation
+		prerequisite = { focus = RK_shared_the_new_occupation }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_stolen_wealth_from_the_people
+		icon = GFX_focus_generic_concessions
+		x = -1
+		y = 1
+
+		cost = 8
+		relative_position_id = RK_integral_factory_exploitation
+		prerequisite = { focus = RK_integral_factory_exploitation }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_industrial_expansion
+		icon = GFX_goal_generic_consumer_goods
+		x = -3
+		y = 1
+
+		cost = 8
+		relative_position_id = RK_integral_factory_exploitation
+		prerequisite = { focus = RK_integral_factory_exploitation }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_military_industry
+		icon = GFX_focus_generic_reorient_production
+		x = 1
+		y = 2
+
+		cost = 8
+		relative_position_id = RK_integral_factory_exploitation
+		prerequisite = { focus = RK_integral_factory_exploitation }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_rebuilding_war_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 3
+
+		cost = 8
+		relative_position_id = RK_integral_factory_exploitation
+		prerequisite = { focus = RK_integral_factory_exploitation }
+		prerequisite = {
+			focus = RK_integral_industrial_expansion
+			focus = RK_integral_stolen_wealth_from_the_people
+			focus = RK_integral_military_industry
+		}
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	# Finishing
+
+	focus = {
+		id = RK_integral_consolidating_administration
+		icon = GFX_focus_generic_improve_the_administration
+		x = -1
+		y = 5
+
+		cost = 8
+		relative_position_id = RK_shared_the_new_occupation
+		prerequisite = { focus = RK_integral_rebuilding_war_infrastructure }
+		prerequisite = { focus = RK_integral_crush_the_resistance }
+		prerequisite = { focus = RK_integral_german_market_domination }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_executing_opposition
+		icon = GFX_goal_generic_attack_allies
+		x = 1
+		y = 5
+
+		cost = 8
+		relative_position_id = RK_shared_the_new_occupation
+		prerequisite = { focus = RK_integral_rebuilding_war_infrastructure }
+		prerequisite = { focus = RK_integral_crush_the_resistance }
+		prerequisite = { focus = RK_integral_german_market_domination }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = RK_integral_eindeutschung
+		icon = GFX_focus_ger_reichskommisariats
+		x = 0
+		y = 6
+
+		cost = 8
+		relative_position_id = RK_shared_the_new_occupation
+		prerequisite = { focus = RK_integral_consolidating_administration }
+		prerequisite = { focus = RK_integral_crush_the_resistance }
+		prerequisite = { focus = RK_integral_executing_opposition }
+
+		available = {
+			# Available if ...
+		}
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+}
+
+focus_tree = {
+	id = reichskommissariat_focus_west
+	default = no
+}
+
+focus_tree = {
+	id = reichskommissariat_focus_east
+	default = no
+}
