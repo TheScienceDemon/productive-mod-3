@@ -1904,3 +1904,4 @@ spriteTypes = {
 		name = "GFX_portrait__Marcus_James_Hugins"
 		texturefile = "gfx/leaders/ZIM/Portrait_ZIM_Marcus_James_Hugin.dds"
 	}
+}

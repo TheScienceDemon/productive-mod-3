@@ -13,5 +13,11 @@ ideas = {
 				production_speed_buildings_factor = -0.4
 			}
 		}
+		pm3_est_defense = {
+			picture = GFX_pm3_EST_defense
+			modifier = {
+				defence = 0.1
+			}
+		}
 	}
 }

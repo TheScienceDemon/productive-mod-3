@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_pm3_EST_defense
+		texturefile = gfx/interface/ideas/pm3_EST_defense.dds
+	}
+}
