@@ -7,3 +7,4 @@ A weird Hoi4 trying to be the successor to [ProductiveMod2](https://steamcommuni
 - [Last Flight](https://steamcommunity.com/sharedfiles/filedetails/?id=3024793795) from [Семён](https://steamcommunity.com/id/2282042)
 - [Recall Volunteers](https://steamcommunity.com/sharedfiles/filedetails/?id=2048998725) from [Yard1](https://steamcommunity.com/profiles/76561198045710503)
 - [No More Generics!](https://steamcommunity.com/sharedfiles/filedetails/?id=2452231589) from [Molvanîa!](https://steamcommunity.com/id/molvaniaa)
+- [Realistic Damage and Civilian Evacuation](https://steamcommunity.com/sharedfiles/filedetails/?id=3155979502) from [Jeremiah12198](https://steamcommunity.com/profiles/76561199012847303)

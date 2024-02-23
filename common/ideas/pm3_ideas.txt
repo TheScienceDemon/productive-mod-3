@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		pm3_japan_victorious = {
+			modifier = {
+				stability_factor = -0.4
+				war_support_factor = -0.8
+				consumer_goods_factor = 0.45
+				production_speed_buildings_factor = -0.5
+			}
+		}
+		pm3_civil_unrest = {
+			modifier = {
+				production_speed_buildings_factor = -0.4
+			}
+		}
+	}
+}

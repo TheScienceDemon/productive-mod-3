@@ -1,6 +1,11 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			# Real shit
+			CHI = {
+				add_ideas = pm3_civil_unrest
+			}
+			# Remove cores
 			PRC = {
 				every_core_state = {
 					remove_core_of = PREV
@@ -377,6 +382,27 @@ on_actions = {
 				ICE = {
 					transfer_state = 101
 					transfer_state = 337
+				}
+			}
+		}
+	}
+
+	# ROOT is winner #FROM is loser
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = JAP }
+					FROM = {
+						OR = {
+							tag = CHI
+							tag = PRC
+						}
+					}
+				}
+
+				ROOT = {
+					add_ideas = pm3_japan_victorious
 				}
 			}
 		}
