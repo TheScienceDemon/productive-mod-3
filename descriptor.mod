@@ -1,4 +1,4 @@
-version="2.1.8.1"
+version="2.2.0"
 picture="thumbnail.png"
 tags={
 	"Gameplay"
@@ -9,5 +9,5 @@ tags={
 	"Alternative History"
 }
 name="ProductiveMod3"
-supported_version="1.13.*"
+supported_version="1.14.*"
 remote_file_id="2984074608"
